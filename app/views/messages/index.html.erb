@@ -7,8 +7,11 @@
     
 <% @messages.each do |message| %>
 
-  <span class="label label-info">
+  <span class="label label-info name_age">
 <%= message.name %>
+  (
+<%= message.age %>
+  )
   </span>
 <%= message.body %>
 
